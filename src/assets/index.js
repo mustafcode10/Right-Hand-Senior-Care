@@ -26,6 +26,7 @@ import people03 from "./people03.png";
 import logo2 from "./logo2.png";
 import rightcare from "./rightcare.svg";
 import logo3 from "./logo3.png";
+import care1 from "./care1.png"
 
 export {
   airbnb,
@@ -55,5 +56,6 @@ export {
   people03,
   logo2,
   rightcare,
-  logo3
+  logo3,
+  care1
 };
