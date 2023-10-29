@@ -22,6 +22,10 @@ export const navLinks = [
     id: "clients",
     title: "Clients",
   },
+  {
+    id:"contact",
+    title:"Contact",
+  }
 ];
 
 export const services = [
@@ -103,6 +107,12 @@ export const about = [
     title: "mustaf ahmed "
   }
 ];
+export const contact = [
+  {
+    id: "contact-1",
+    title: "contact title"
+  }
+]
 
 export const footerLinks = [
   {
