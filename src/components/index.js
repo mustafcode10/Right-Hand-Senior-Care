@@ -10,6 +10,7 @@ import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import About from "./About";
 import Contact  from "./Contact";
+import CardDetails from "./CardDetails";
 
 export {
   Navbar,
@@ -23,5 +24,6 @@ export {
   Testimonials,
   Hero,
   About,
-  Contact
+  Contact,
+  CardDetails
 };

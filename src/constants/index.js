@@ -52,6 +52,30 @@ export const services = [
   },
 ];
 
+export const cardDetails = [
+  {
+    id: "feature-1",
+    icon: star,
+    title: "Housing Stabilization Services",
+    content:
+      "A housing consultant helps a person who doesn’t have MA case management develop a person-centered plan that addresses their needs, wants, and goals for living in the community.",
+  },
+  {
+    id: "feature-2",
+    icon: shield,
+    title: "Intergrated Community Supports ( ICS)",
+    content:
+      "Services that provide support and training in community living service categories to adults age 18 and older who reside in a living unit of a provider-controlled ICS setting. ICS can be delivered up to 24 hours per day in the person's living unit or the community",
+  },
+  {
+    id: "feature-3",
+    icon: send,
+    title: "In-Home Support Services",
+    content:
+      "Essential support services These are services that provide the level of assistance, supervision, and care that is necessary to ensure the health and safety of the person.",
+  },
+];
+
 export const feedback = [
   {
     id: "feedback-1",

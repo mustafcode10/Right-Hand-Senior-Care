@@ -33,7 +33,7 @@ const About = () =>  (
        Trust us to be your right hand in senior care.
       </p>
 
-      <Button styles={`mt-10`} />
+      {/* <Button styles={`mt-10`} /> */}
     </div>
 
     {/* <div className={`${layout.sectionImg} flex-col`}>
