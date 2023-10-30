@@ -27,6 +27,9 @@ import logo2 from "./logo2.png";
 import rightcare from "./rightcare.svg";
 import logo3 from "./logo3.png";
 import care1 from "./care1.png"
+import image1 from "./image1.png";
+import image2 from "./image2.png";
+import image3 from "./image3.png";
 
 export {
   airbnb,
@@ -57,5 +60,8 @@ export {
   logo2,
   rightcare,
   logo3,
-  care1
+  care1,
+  image1,
+  image2,
+  image3,
 };

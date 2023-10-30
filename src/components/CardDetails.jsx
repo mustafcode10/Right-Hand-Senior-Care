@@ -4,7 +4,7 @@ import { cardDetails } from "../constants";
 import ReadMore from "./ReadMore";
 // import React, { useState } from 'react';
 
-const FeatureCard = ({ icon, title, content, index }) => (
+const FeatureCard = ({ icon, title, content, index, image }) => (
     <div className={`flex flex-row p-6 rounded-[20px] ${index !== cardDetails.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
       <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
         <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
@@ -20,7 +20,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
         </p>
       </div>
       <div className={layout.sectionImg}>
-      <img src={card} alt="billing" className="w-[80%] h-[80%]" />
+      <img src={image} alt="billing" className="w-[90%] h-[90%]" />
     </div> 
     </div>
     

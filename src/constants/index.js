@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, image1, image2, image3,  } from "../assets";
 
 export const navLinks = [
   {
@@ -57,6 +57,7 @@ export const cardDetails = [
     id: "feature-1",
     icon: star,
     title: "Housing Stabilization Services",
+    image: image1,
     content:
       "A housing consultant helps a person who doesn’t have MA case management develop a person-centered plan that addresses their needs, wants, and goals for living in the community.",
   },
@@ -64,6 +65,7 @@ export const cardDetails = [
     id: "feature-2",
     icon: shield,
     title: "Intergrated Community Supports ( ICS)",
+    image: image2,
     content:
       "Services that provide support and training in community living service categories to adults age 18 and older who reside in a living unit of a provider-controlled ICS setting. ICS can be delivered up to 24 hours per day in the person's living unit or the community",
   },
@@ -71,6 +73,7 @@ export const cardDetails = [
     id: "feature-3",
     icon: send,
     title: "In-Home Support Services",
+    image: image3,
     content:
       "Essential support services These are services that provide the level of assistance, supervision, and care that is necessary to ensure the health and safety of the person.",
   },
